@@ -1,0 +1,16 @@
+.md-content__inner.md-typeset{
+    background: linear-gradient(to bottom right, rgba(255,255,255,0), rgba(0, 188, 212, 0.5));
+    /* padding: 0.65rem; */
+}
+
+.md-header, .md-tabs{
+    background-color: #00bcd4;
+}
+
+.ericportrait{
+    padding-left:20%;
+}
+
+div > img {
+    border-radius: 150px;
+}
