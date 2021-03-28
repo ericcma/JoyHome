@@ -19,21 +19,19 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+site_name: JoyHome HowTo
+site_url: https://github.com/ericcma/JoyHomeHowTo
+site_author: Eric Ma
 site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project – customizable,
-  searchable, mobile-friendly, 40+ languages
+  Eric's Real Estate channel to host Great Toronto real estate investment info.
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: ericcma/JoyHomeHowTo
+repo_url: https://github.com/ericcma/JoyHomeHowTo
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2021 Martin Donath
+copyright: Copyright &copy; 2019 - 2021 Eric Ma
 
 # Configuration
 theme:
@@ -68,24 +66,13 @@ theme:
 # Plugins
 plugins:
   - search
-  - redirects:
-      redirect_maps:
-        extensions/admonition.md: reference/admonitions.md
-        extensions/codehilite.md: reference/code-blocks.md
-        extensions/footnotes.md: reference/footnotes.md
-        extensions/metadata.md: reference/meta-tags.md
-        extensions/permalinks.md: setup/setting-up-navigation.md #permalink
-        extensions/pymdown.md: reference/admonitions.md
-        plugins/revision-date.md: setup/adding-a-git-repository.md #revision-date
-        plugins/search.md: setup/setting-up-site-search.md
-        releases/4.md: upgrading.md #upgrading-from-4x-to-5x
-        releases/5.md: upgrading.md #upgrading-from-3x-to-4x
-        releases/changelog.md: changelog.md
-        setup/adding-social-links.md: setup/setting-up-the-footer.md
-        sponsorship.md: insiders/index.md
   - minify:
       minify_html: true
 
+extra_css: 
+  - css/extra.css
+extra_javascript: 
+  - js/extra.js
 # Customization
 extra:
   social:
@@ -144,55 +131,110 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
-  - Getting started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
-    - Troubleshooting: troubleshooting.md
-    - Data privacy: data-privacy.md
-    - License: license.md
-    - Releases:
-      - Changelog: changelog.md
-      - Upgrade guide: upgrading.md
-      - Deprecations: deprecations.md
-  - Setup:
-    - Changing the colors: setup/changing-the-colors.md
-    - Changing the fonts: setup/changing-the-fonts.md
-    - Changing the language: setup/changing-the-language.md
-    - Changing the logo and icons: setup/changing-the-logo-and-icons.md
-    - Setting up navigation: setup/setting-up-navigation.md
-    - Setting up site search: setup/setting-up-site-search.md
-    - Setting up site analytics: setup/setting-up-site-analytics.md
-    - Setting up versioning: setup/setting-up-versioning.md
-    - Setting up the header: setup/setting-up-the-header.md
-    - Setting up the footer: setup/setting-up-the-footer.md
-    - Adding a git repository: setup/adding-a-git-repository.md
-    - Adding a comment system: setup/adding-a-comment-system.md
-  - Reference:
-    - Abbreviations: reference/abbreviations.md
-    - Admonitions: reference/admonitions.md
-    - Buttons: reference/buttons.md
-    - Code blocks: reference/code-blocks.md
-    - Content tabs: reference/content-tabs.md
-    - Data tables: reference/data-tables.md
-    - Diagrams: reference/diagrams.md
-    - Footnotes: reference/footnotes.md
-    - Formatting: reference/formatting.md
-    - Icons + Emojis: reference/icons-emojis.md
-    - Images: reference/images.md
-    - Lists: reference/lists.md
-    - MathJax: reference/mathjax.md
-    - Meta tags: reference/meta-tags.md
-    - Variables: reference/variables.md
-  - Insiders:
-    - Sponsorship: insiders/index.md
-    - Getting started:
-      - Installation: insiders/getting-started.md
-      - Changelog: insiders/changelog.md
+  - Home: 
+    - Welcome: index.md
+    - Incredible Toronto（震撼的多伦多）: incredibletoronto.md
+  
+  - Generald 常识:
+    - 经济景气指标: realestate/all-love/02_ecnomics_indicator_ch.md
+    - 房屋常见问题: realestate/all-love/02_residential_house_flaws.md
+    - 加拿大房屋保险全攻略: realestate/all-love/02_residence_insurance_intro.md
+    - 购买居住房要考虑的因素: 'realestate/buyer/principle-buy-primary-home.md'
+    - 购买居住房程序: 'realestate/buyer/house-purchase-steps.md'
+    - 关于房屋朝向: 'realestate/buyer/pinciple-house-orientation.md'
+    - 房屋贷款原则: 'realestate/buyer/mortage-shopping-principle.md'
+    - 房屋贷款步骤: 'realestate/buyer/mortgage-steps.md'
+    - 楼花及购买步骤: 'realestate/buyer/new-construction.md'
+    - Steps to sell: 'realestate/seller/steps_sell_primary_home.md'
+    - 卖房步骤详解: 'realestate/seller/steps_sell_primary_home_ch.md'
+    - Principles of sellinging a primary house: 'realestate/seller/principle-sell-primary-home.md'
+    - General Info: 'realestate/landlord-renter/general/01_general-info.md'
+    - Landlord: 'realestate/landlord-renter/landlord/01_forms.md'
+    - Renter: 'realestate/landlord-renter/renter/01_forms.md'
+  - Community Info 社区简介:
+    - Aurora 奥罗拉: realestate/communities/aurora/00_aurora_general.md
+    - Markham 万锦: 
+      - Markham General 概况: realestate/communities/markham/00_markham_general.md
+      - Angus Glen: realestate/communities/markham/01_angusglen.md
+      - Berczy: realestate/communities/markham/02_berczy.md
+      - Unionville: realestate/communities/markham/08_unionville.md
+      - Wismer: realestate/communities/markham/09_wismer.md
+    - Mississauga(密西沙加):
+      - General Information: 'realestate/communities/mississauga/00_mississuaga_general.md'
+      - Central Erin Mills: 'realestate/communities/mississauga/01_central_erin_mills.md'
+      - Churchill Meadows: 'realestate/communities/mississauga/02_churchill_meadows.md'
+      - Erin Mills: 'realestate/communities/mississauga/03_erin_mills.md'
+      - Lisgar: 'realestate/communities/mississauga/05_lisgar.md'
+      - Lorne Park: 'realestate/communities/mississauga/06_lorne_park.md'
+    - North York(北约克):
+      - North York General(概况): 'realestate/communities/northyork/00_northyork_general.md'
+      - Bayview Village: 'realestate/communities/northyork/01_bayviewvillage.md'
+    - Oakville(奥克维尔):
+      - General Information: 'realestate/communities/oakville/00_oakville_general.md'
+      - College Park: 'realestate/communities/oakville/02_college_park.md'
+      - Iroquois Ridge North: 'realestate/communities/oakville/03_iroquois_ridge_north.md'
+      - Palermo West: 'realestate/communities/oakville/05_palermo_west.md'
+      - River Oaks: 'realestate/communities/oakville/06_river_oaks.md'
+      - Rural Oakville: 'realestate/communities/oakville/08_rural_oakville.md'
+      - Uptown Core: 'realestate/communities/oakville/09_uptown_core.md'
+      - Westoak Trails: 'realestate/communities/oakville/10_west_oak_trails.md'
+    - Richmond Hill(列治文山):
+      - Richmond Hill General(概况): 'realestate/communities/richmondhill/00_richmondhill_general.md'
+      - Bayview Hill: 'realestate/communities/richmondhill/01_bayviewhill.md'
+      - Doncrest: 'realestate/communities/richmondhill/02_doncrest.md'
+      - Jefferson: 'realestate/communities/richmondhill/04_jefferson.md'
+      - Langstaff: 'realestate/communities/richmondhill/05_langstaff.md'
+    - Vaughan(旺市):
+      - Vaughan General(概况): 'realestate/communities/vaughan/00_vaughan_general.md'
+      - Patterson: 'realestate/communities/vaughan/05_patterson.md'
+      - Vellore Village: 'realestate/communities/vaughan/08_vellore_village.md'
+    - Whitby(惠特比):
+      - Whitby General(概况): realestate/communities/whitby/00_whitby_general.md
+  - Pre Construction(楼花):
+    - Archett: realestate/projects/vaughan-archetto/vaughan-archetto.md
+    - Hiltop: realestate/projects/ajax-hiltop/ajax-hiltop.md
+    - Grand Festival: realestate/projects/grand-festival/grand-festival.md
+    - Grand Center Mimico: realestate/projects/grand-central-mimico/grand-central-mimico.md
+  - Projects:
+    - Orlando Vacation Homes:
+      - Why: 'realestate/projects/orlando/01-why.md'
+      - What: 'realestate/projects/orlando/02-what.md'
+      - How: 'realestate/projects/orlando/03-how-it-work.md'
+      - Mortgage: 'realestate/projects/orlando/04-get-financialized.md'
+      - ROI Analysis - 1: 'realestate/projects/orlando/05-roi-1.md'
+      - ROI Analysis - 2: 'realestate/projects/orlando/06-roi-2.md'
+      - ROI Analysis - 3: 'realestate/projects/orlando/07-roi-3.md'
+      - 'Question & Answer': 'realestate/projects/orlando/08-qa.md'
+  - Tools-常用工具:
+    - Reference Links: 'reference.md'
+    - Calculaor: 'realestate/calculators/calculator-links.md'
 
-# Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
+  - Contact-加我: 'contact.md'
+  - Agent（经纪规范流程）:
+    - Handy Links: 'realestate/agent/00_handy_links.md'
+    - Transaction Management:
+      - Commission Rebate: 'realestate/agent/transaction-management/01_commission_rebate.md'
+      - Disclosure of Interests: realestate/agent/transaction-management/02_disclosure_of_interest.md
+      - Offer Examples: realestate/agent/transaction-management/03_offer_examples.md
+      - Webform Templates: realestate/agent/transaction-management/04_webform_emplate.md
+      - Document Needs for Transactions:
+        - Listing:
+          - Resale: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_resale.md
+          - Lease: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_lease.md
+          - Assignment: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment.md
+        - Co-Operate:
+          - Resale: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_resale.md
+          - Lease: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_lease.md
+          - Assignment: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment.md
+        - 'New Construction': 'realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_new_construction.md'
+      - Schefule B: realestate/agent/transaction-management/06_scheduleB.md
+      - Transaction Summary: realestate/agent/transaction-management/07_transaction_summary.md
+      - Fintrac Forms: realestate/agent/transaction-management/08_fintrac_forms.md
+    - Training:
+      - Fill Web Forms Step-By-Step Vedios: 'realestate/agent/training/bsg-realestate-step-by-step.md'
+    - Case Resolution:
+      - Apply Deposit To New Agreement: 'realestate/agent/case-resolution/case-resolution-01.md'
+  - Tech Reference:
+    - Markdown Language Syntax: tech-tools/markdownsyntax.md
+    - MkDocs Guide: tech-tools/mkdocs-guide.md
+
