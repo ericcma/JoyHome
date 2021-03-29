@@ -148,7 +148,7 @@ nav:
     - Steps to sell: 'realestate/seller/steps_sell_primary_home.md'
     - 卖房步骤详解: 'realestate/seller/steps_sell_primary_home_ch.md'
     - Principles of sellinging a primary house: 'realestate/seller/principle-sell-primary-home.md'
-    - General Info: 'realestate/landlord-renter/general/01_general-info.md'
+    # - General Info: 'realestate/landlord-renter/general/01_general-info.md'
     - Landlord: 'realestate/landlord-renter/landlord/01_forms.md'
     - Renter: 'realestate/landlord-renter/renter/01_forms.md'
   - Community Info 社区简介:
@@ -184,6 +184,7 @@ nav:
       - Doncrest: 'realestate/communities/richmondhill/02_doncrest.md'
       - Jefferson: 'realestate/communities/richmondhill/04_jefferson.md'
       - Langstaff: 'realestate/communities/richmondhill/05_langstaff.md'
+      - Crosby: 'realestate/communities/richmondhill/06_crosby.md'
     - Vaughan(旺市):
       - Vaughan General(概况): 'realestate/communities/vaughan/00_vaughan_general.md'
       - Patterson: 'realestate/communities/vaughan/05_patterson.md'
