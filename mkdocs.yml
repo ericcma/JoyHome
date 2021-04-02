@@ -131,11 +131,10 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: 
-    - Welcome: index.md
-    - Incredible Toronto（震撼的多伦多）: incredibletoronto.md
+    
   
-  - Generald 常识:
+  - 投资常识:
+    - 大多伦多简介: incredibletoronto.md
     - 经济景气指标: realestate/all-love/02_ecnomics_indicator_ch.md
     - 房屋常见问题: realestate/all-love/02_residential_house_flaws.md
     - 加拿大房屋保险全攻略: realestate/all-love/02_residence_insurance_intro.md
@@ -151,7 +150,7 @@ nav:
     # - General Info: 'realestate/landlord-renter/general/01_general-info.md'
     - Landlord: 'realestate/landlord-renter/landlord/01_forms.md'
     - Renter: 'realestate/landlord-renter/renter/01_forms.md'
-  - Community Info 社区简介:
+  - 社区简介:
     - Aurora 奥罗拉: realestate/communities/aurora/00_aurora_general.md
     - Markham 万锦: 
       - Markham General 概况: realestate/communities/markham/00_markham_general.md
@@ -206,12 +205,12 @@ nav:
       - ROI Analysis - 2: 'realestate/projects/orlando/06-roi-2.md'
       - ROI Analysis - 3: 'realestate/projects/orlando/07-roi-3.md'
       - 'Question & Answer': 'realestate/projects/orlando/08-qa.md'
-  - Tools-常用工具:
+  - 实用工具:
     - Reference Links: 'reference.md'
     - Calculaor: 'realestate/calculators/calculator-links.md'
 
-  - Contact-加我: 'contact.md'
-  - Agent（经纪规范流程）:
+  - 联系我: 'contact.md'
+  - 经纪规范流程:
     - Handy Links: 'realestate/agent/00_handy_links.md'
     - Transaction Management:
       - Commission Rebate: 'realestate/agent/transaction-management/01_commission_rebate.md'
@@ -235,7 +234,7 @@ nav:
       - Fill Web Forms Step-By-Step Vedios: 'realestate/agent/training/bsg-realestate-step-by-step.md'
     - Case Resolution:
       - Apply Deposit To New Agreement: 'realestate/agent/case-resolution/case-resolution-01.md'
-  - Tech Reference:
+  - 技术参考:
     - Markdown Language Syntax: tech-tools/markdownsyntax.md
     - MkDocs Guide: tech-tools/mkdocs-guide.md
 

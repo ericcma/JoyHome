@@ -14,3 +14,9 @@
 div > img {
     border-radius: 150px;
 }
+
+
+.md-nav--primary .md-nav__title[for=__drawer] {
+    color: var(--md-primary-bg-color);
+    background-color:#00bcd4;;
+}
