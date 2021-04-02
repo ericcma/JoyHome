@@ -41,7 +41,7 @@
 史乔各乡（Scugog）
 卡灵顿自治区（Clar
 
-![GTA map](../assets/images/gta_map.png)
+![GTA map](./assets/images/gta_map.png)
 
 ### GTA历史沿革
 GTA”一词首见于一份在1980年代中期就区内地方行政架构重组问题而发表的报告中，其后才开始被广泛使用，并被省政府定为一个正式的规划范围。
@@ -62,7 +62,7 @@ GTA”一词首见于一份在1980年代中期就区内地方行政架构重组�
 
 著名的多伦多大学位于多伦多市中心，学生总数超过6万人, 每年吸引成千上万的留学生。
 
-![GTA map](../assets/images/UofT.jpg)
+![GTA map](./assets/images/UofT.jpg)
 
 
 ### 交通运输
